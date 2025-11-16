@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Customer Live Driver Location</title>
+  <meta charset="UTF-8" />
+  <style>
+    body { margin:0; padding:0; }
+    #map { width: 100%; height: 100vh; }
+  </style>
+
+  <!-- Leaflet CSS -->
+  <link 
+    rel="stylesheet" 
+    href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+  />
+
+  <!-- Leaflet JS -->
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+  <!-- MQTT.js Browser CDN -->
+  <script src="https://unpkg.com/mqtt/dist/mqtt.min.js"></script>
+
+  <script defer src="./map.js"></script>
+</head>
+<body>
+  <div id="map"></div>
+</body>
+</html>
